@@ -10,6 +10,7 @@ import BookmarksIcon from '@mui/icons-material/Bookmarks';
 import ListIcon from '@mui/icons-material/List';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import { Button } from '@mui/material';
 function Sidebar() {
   return (
     <div className='sidebar'>
@@ -17,7 +18,7 @@ function Sidebar() {
       <TwitterIcon />
 
       {/* sidebar options */}
-      <SidebarOption Icon={HomeIcon} text='Home' />
+      <SidebarOption active Icon={HomeIcon} text='Home' />
       <SidebarOption Icon={SearchIcon} text='Explore' />
       <SidebarOption Icon={NotificationsIcon} text='Notifications' />
       <SidebarOption Icon={MessageIcon} text='Messages' />
@@ -26,6 +27,8 @@ function Sidebar() {
       <SidebarOption Icon={AccountCircleIcon} text='Profile' /> 
       <SidebarOption Icon={MoreHorizIcon} text='More' /> 
 
+    {/* Button tweet */}
+    <Button variant= 'outlined' className='sidebar__tweet'fullWidth>Tweet</Button>
 
       </div>
   );
