@@ -9,6 +9,7 @@ import MessageIcon from '@mui/icons-material/Message';
 import BookmarksIcon from '@mui/icons-material/Bookmarks';
 import ListIcon from '@mui/icons-material/List';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 function Sidebar() {
   return (
     <div className='sidebar'>
@@ -23,6 +24,7 @@ function Sidebar() {
       <SidebarOption Icon={BookmarksIcon} text='Bookmarks' />
       <SidebarOption Icon={ListIcon} text='Lists' /> 
       <SidebarOption Icon={AccountCircleIcon} text='Profile' /> 
+      <SidebarOption Icon={MoreHorizIcon} text='More' /> 
 
 
       </div>
