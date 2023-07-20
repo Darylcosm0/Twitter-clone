@@ -1,17 +1,20 @@
-import './App.css';
+import React from 'react';
 import Sidebar from './Sidebar';
+import Feed from './Feed'
 import './App.css'
-import SidebarOption from './SidebarOption';
+
 
 function App() {
   return (
     //BEM
-    <div className="App">
-     <h1>Hello pussy ass nigga we must build this </h1>
+    <div className="app">
+
      {/* sidebar */}
       <Sidebar/>
+
      {/* feed */}
-  <feed/>
+
+      <Feed/>
 
      {/* widgets */}
 

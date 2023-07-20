@@ -11,11 +11,12 @@ import ListIcon from '@mui/icons-material/List';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import { Button } from '@mui/material';
+
 function Sidebar() {
   return (
     <div className='sidebar'>
       {/* TwitterIcon */}
-      <TwitterIcon />
+      <TwitterIcon className='sidebar__twitterIcon' />
 
       {/* sidebar options */}
       <SidebarOption active Icon={HomeIcon} text='Home' />
