@@ -31,7 +31,7 @@ function Post({
             </h3>
         </div>
         <div className="post__headerDescription">
-            <p>Hello pussy ass nigga we are coming in hot like a heater</p>
+            <p>F*ck Around And Get Laid! 6ft Deep..</p>
         </div>
         </div>
         <img src="https://i.pinimg.com/236x/67/e6/c7/67e6c796e8f71acc86e2749770454cba.jpg" alt="" />
